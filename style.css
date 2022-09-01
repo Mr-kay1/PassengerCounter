@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: url(../counterApp/legs.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    background: white;
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid pink;
+    border-radius: 10px;
+    z-index: -1;
+}
+#attend{
+    font-size: 50px;
+}
+#number{
+    font-size: 50px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#counter-btn{
+    background-color: pink;
+}
+#saves-btn{
+    background-color: pink;
+}
